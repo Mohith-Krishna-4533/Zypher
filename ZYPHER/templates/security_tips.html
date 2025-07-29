@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Security Tips - Zypher</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to right, #0f172a, #1e293b);
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    h1, h2 {
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p.subheading {
+      font-size: 1.25rem;
+      color: #d1d5db;
+      margin-bottom: 3rem;
+    }
+
+    .card-tip {
+      background-color: #1e3a8a;
+      border: none;
+      border-radius: 1rem;
+      padding: 2rem;
+      margin: 1rem;
+      color: #f1f5f9;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card-tip:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+    .card-tip i {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #93c5fd;
+    }
+
+    .btn-back {
+      margin-top: 3rem;
+      background-color: #64748b;
+      color: #fff;
+      border-radius: 2rem;
+      padding: 0.75rem 2rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .btn-back:hover {
+      background-color: #475569;
+    }
+
+    .jump:hover {
+      animation: jump 0.5s;
+    }
+
+    @keyframes jump {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+      .card-tip {
+        margin: 1rem auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1 class="jump">Cybersecurity Tips</h1>
+  <p class="subheading jump">Stay smart. Stay secure.</p>
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card-tip">
+          <i class="bi bi-key"></i>
+          <h5>Use Strong Passwords</h5>
+          <p>Avoid names or birthdays. Use a mix of characters and enable password managers.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-tip">
+          <i class="bi bi-envelope-exclamation"></i>
+          <h5>Beware of Phishing</h5>
+          <p>Never click unknown links. Verify the sender before opening any attachment.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-tip">
+          <i class="bi bi-shield-lock"></i>
+          <h5>Keep Software Updated</h5>
+          <p>Updates often contain critical security patches. Always stay up to date.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-tip">
+          <i class="bi bi-wifi-off"></i>
+          <h5>Avoid Public Wi-Fi</h5>
+          <p>Use VPNs when on open networks. Avoid banking or shopping on public Wi-Fi.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-tip">
+          <i class="bi bi-shield-check"></i>
+          <h5>Enable 2FA</h5>
+          <p>Two-Factor Authentication adds another layer of protection to your accounts.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card-tip">
+          <i class="bi bi-file-earmark-x"></i>
+          <h5>Don’t Download Random Files</h5>
+          <p>Malicious files can compromise your device. Only download from trusted sources.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
